@@ -3,13 +3,12 @@ package main
 import (
     "fyne.io/fyne/v2/app"
     "fyne.io/fyne/v2/container"
-    "fyne.io/fyne/v2"
     "fyne.io/fyne/v2/widget"
 )
 
 func main() {
-    // Initialize the Fyne app
-    myApp := app.New()
+    // Use app.NewWithID to resolve the preferences API error
+    myApp := app.NewWithID("com.yourapp.fileencryptor")
     myWindow := myApp.NewWindow("File Encryptor")
 
     // UI elements for the application
