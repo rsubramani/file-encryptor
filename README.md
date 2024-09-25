@@ -1,4 +1,4 @@
-# Go File Encryptor
+# Go File Encryptor 🔐
 
 A simple file encryption tool built in Go with a graphical user interface (GUI) using the Fyne framework. This application allows users to encrypt files using AES-256 encryption. It includes features like password strength checking, a progress bar, error handling, and an option to save the encryption key to a file.
 
